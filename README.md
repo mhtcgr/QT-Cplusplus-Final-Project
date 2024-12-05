@@ -1,0 +1,2 @@
+source code里面装的是qt源代码
+packet code里面装的是已经打包好的exe程序
