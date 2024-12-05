@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UpgradeDialog</class>
+ <widget class="QDialog" name="UpgradeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>151</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>升级开采器</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/ui/building_icons/res.qrc">
+     <normaloff>:/image/miner.png</normaloff>:/image/miner.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>150</y>
+     <width>151</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>升级传送带</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/ui/building_icons/res.qrc">
+     <normaloff>:/image/belt.png</normaloff>:/image/belt.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>150</y>
+     <width>151</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>升级切割机</string>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/ui/building_icons/res.qrc">
+     <normaloff>:/image/cutter.png</normaloff>:/image/cutter.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res/ui/building_icons/res.qrc"/>
+  <include location="../res/ui/building_icons/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
